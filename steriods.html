@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <title>Blackjack</title>
+  <link rel="stylesheet" href="static/css/Blackjack.css">
+</head>
+<body>
+  <div class="container-4">
+    <h2>Welcome To</h1>
+    <h1>BlackJack <span>Game</span></h1>
+    <img src="images/black.png" alt="" height="150px" width="150px" />
+    <div>
+
+      <form action="" method="get" accept-charset="utf-8">
+       
+          <input type="radio" name="name" id="name" onclick="singlePlayer()">Single-Player</input>
+        <input type="radio" name="name" id="name" onclick="multiPlayer()">Multi-Player</input>             
+
+  </form>
+</div>
+<div id="startbutton">
+  <button type="submit">Play Game</button>
+</div>
+</div>
+<div class="container-5">
+<h1>BlackJack <span>Game</span></h1>
+<div class="result">
+<h3><span id="blackjack-result">Let's play</span></h3>
+</div>
+<div class="flex-blackjack-row-1">
+<div id="your-box">
+<h2>Player1: <span id="your-blackjack-result">0</span></h2>
+</div>
+
+<div id="dealer-box">
+<h2>Player2: <span id="dealer-blackjack-result">0</span></h2>
+</div>
+</div>
+
+<div class="flex-blackjack-row-2">
+<div class="showButton">
+<button class="btn primary mr-2" id="blackjack-hit-button">Hit</button>
+<button class="btn warning mr-2" id="blackjack-stand-button">Stand</button>
+
+<button class="btn danger mr-2" id="blackjack-deal-button">Deal</button>
+
+
+</div>
+<button class="btn danger mr-2 startOver" id="blackjack-starOver">Play again</button>
+</div>
+
+<div class="flex-blackjack-row-3">
+<table border="0">
+<tr>
+<th>Player1</th>
+<th>Player2</th>
+<th>Draws</th>
+</tr>
+
+<tr>
+<td><span id="wins">0</span></td>
+<td><span id="losses">0</span></td>
+<td><span id="draws">0</span></td>
+</tr>
+</table>
+</div>
+
+<!--<button type="submit" class="endGame">End Game</button>-->
+
+</div>
+
+<script src="static/js/Steroid.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Consolas;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Consolas;
+}
+.container-4 {
+  display: block;
+  text-align: center;
+
+}
+
+  input {
+  margin: 0 7px;
+  background: red;
+}
+
+
+#startbutton {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 1rem;
+}
+
+#startbutton button {
+color: #fff;
+font-weight: 700;
+background: rgba(255, 0, 0, 1);
+border-radius: 10px;
+}
+.container-5 {
+width: 90%;
+margin: 0 auto;
+text-align: center;
+margin-top: 2rem;
+display: none;
+}
+.container-5 h1, .container-4 h1 {
+color: #42ff00;
+border-bottom: 5px solid black;
+font-family: Sans-Serif;
+font-weight: 900;
+letter-spacing: 2px;
+}
+.container-5 h1 span, .container-4 h1 span {
+color: crimson;
+}
+
+.result {
+margin-top: 1rem;
+margin-bottom: .5rem;
+font-size: 1.5rem;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+
+
+display: flex;
+padding: 10px;
+flex-wrap: wrap;
+flex-direction: row;
+justify-content: space-around;
+}
+.flex-blackjack-row-1, .flex-blackjack-row-2 {
+background-color: #05692a;
+color: #ffffff;
+}
+
+.flex-blackjack-row-1 img {
+width: 5rem;
+padding: 10px;
+}
+
+button {
+  cursor:pointer;
+}
+
+.flex-blackjack-row-2 button {
+padding: 10px;
+}
+
+.flex-blackjack-row-2 div {
+/* border: 1px solid black;*/
+padding: 10px;
+}
+
+.flex-blackjack-row-1 div {
+/*display: none;*/
+border: 1px solid #fff;
+height: 350px;
+flex: 1;
+}
+
+table, th, td {
+padding: 5px;
+border: 1px solid black;
+/* border-collapse: collapse;*/
+}
+
+.primary {
+color: white;
+background: #2578f1;
+}
+
+.danger {
+color: white;
+background: #fb0909;
+}
+.warning {
+color: black;
+background: #fcc915;
+}
+
+.success {
+color: white;
+background: #00b808;
+}
+
+.mr-2 {
+margin: 2px;
+}
+button {
+padding: 1rem 1rem;
+border-radius: 5px;
+border: none;
+font-size: 15px;
+}
+
+.startOver {
+display: none;
+justify-content: center;
+align-items: center;
+}
+
+.endGame {
+background: #ff0000;
+color: #fff;
+}
+
+.container-5 h2 {
+color: #ffd400;
+}
+.container-5 h2 span {
+color: #fff;
+}
